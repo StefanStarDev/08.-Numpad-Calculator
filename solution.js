@@ -54,8 +54,10 @@ function solve() {
                             break;
                     }
                     resultElement.textContent = result
-                    expressionElement.textContent = ""
+                    // expressionElement.textContent = ""
 
+                }else{
+                    resultElement.textContent = NaN
                 }
             }
 
